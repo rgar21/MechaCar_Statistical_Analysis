@@ -24,10 +24,21 @@ However, upon further analysis we can see that Lot3 had a variance of 170.28 PSI
 
 ![SampleTTest](https://user-images.githubusercontent.com/106921601/191137406-5d0481cd-45e4-4ad9-93e2-cc35945ee38c.PNG)
 
+When we ran a t-test for all manufacturing lots we obtained a p-value of 0.06, and thus we cannot reject our null hypothesis that the PSI for all lots are the same as the population mean.
+
 ![Lot1Ttest](https://user-images.githubusercontent.com/106921601/191137409-0155a65d-138e-491b-8acd-983263956dfe.PNG)
+
+Our t-test for Lot 1 yielded a p-value of 1 which shows that we will not be able to reject our null hypothesis.
 
 ![Lot2Ttest](https://user-images.githubusercontent.com/106921601/191137412-1551752a-40c7-4495-b74f-334c006ad166.PNG)
 
+Our t-test for Lot 2 yielded a p-value of .6 which shows that we will not be able to reject our null hypothesis.
+
 ![Lot3Ttest](https://user-images.githubusercontent.com/106921601/191137419-c4a9d1a6-84aa-4b6e-9ee3-761077cb7aee.PNG)
 
+Our t-test for Lot 3 yielded a p-value of .041 which shows that we can reject our null hypothesis. This proves that our mean PSI for lot3 is significantly different from the population mean of 1500. 
+
 ## Study Design: MechaCar vs Competition
+
+I recommend that we design a study to compare MechaCar's horsepower per MPG vs the competition to determine what power level we should seek from our prototype. For this test, our alternative hypothesis would be that if our prototypes horsepower per MPG metric is greater than our average competitor we will be able to be competitive in the market place. We should perform an ANOVA for the entire market segment in order to determine how our horsepower per MPG rating stacks up vs our competitors. We would have to collect all horsepower and MPG for engines available in our chosen market segment.
+
